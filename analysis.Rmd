@@ -1,0 +1,20 @@
+---
+title: "Lab 03 - Using Propensity Scores"
+output: github_document
+author: "Lucy D'Agostino McGowan"
+date: '2022-03-29'
+---
+
+
+```{r, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(smd)
+```
+
+## Exercise 1
+
+```{r}
+df <- read_csv("coffee_town_df.csv")
+head(df)
+```
+

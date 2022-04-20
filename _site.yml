@@ -1,0 +1,24 @@
+name: "example-website"
+navbar: 
+  title: "Title"
+  left:
+    - text: "Landing page!"
+      href: index.html
+    - text: "Analysis"
+      href: analysis.html
+    - text: "Readings"
+      menu:
+        - text: "Module 1"
+          href: readings-module1.html
+        - text: "Module 2"
+          href: ./insert_a.pdf
+  right: 
+    - icon: fa-github fa-lg
+      href: https://github.com/lucymcgowan
+    - text: "Here is a link"
+      href: https://example.com
+    - icon: fa-twitter
+      href: https://twitter.com/lucystats
+output:
+  html_document:
+    theme: flatly
